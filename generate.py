@@ -3,13 +3,19 @@
 import json
 import os
 import shutil
+import tarfile
+import os.path
+
+def GenerateTar(variantPath):
+    with tarfile.open(variantPath + ".tar.gz", "w:gz") as tar:
+        tar.add(variantPath, arcname=os.path.basename(variantPath))
 
 def ReadIcon(iconName):
     iconPath = "./tabler-icons/" + iconName + ".svg"
     f = open(iconPath, "r")
     data = f.read()
     f.close()
-    print("Read Icon " + iconName)
+    print("Mapping Icon " + iconName)
     return data
 
 def WriteIcon(icon, scale, path, append):
@@ -39,6 +45,9 @@ def GenerateVariant(variantName):
 
     # Copy Extra Stuff
     shutil.copy("./index.theme", "./dist/" + variantName)
+
+    # Convert to tar.gz
+    GenerateTar("./dist/" + variantName)
 
 def ApplyVariant(variant, icon):
     appliedIcon = icon
