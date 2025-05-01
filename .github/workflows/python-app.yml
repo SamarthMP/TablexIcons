@@ -23,6 +23,8 @@ jobs:
           artifacts: "dist/*.tar.gz"
           bodyFile: "README.md"
           commit: "main"
+          tag: "latest"
+          allowUpdates: true
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
