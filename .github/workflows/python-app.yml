@@ -26,7 +26,7 @@ jobs:
       run: |
         python generate.py
     - name: Update release
-    - uses: ncipollo/release-action@v1
+      uses: ncipollo/release-action@v1
       with:
           artifacts: "dist/*.tar.gz"
           bodyFile: "RELEASE.md"
