@@ -18,13 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: ncipollo/release-action@v1
-      with:
-          artifacts: "dist/*.tar.gz"
-          bodyFile: "README.md"
-          commit: "main"
-          tag: "latest"
-          allowUpdates: true
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
@@ -32,3 +25,12 @@ jobs:
     - name: Run conversion
       run: |
         python generate.py
+    - name: Update release
+    - uses: ncipollo/release-action@v1
+      with:
+          artifacts: "dist/*.tar.gz"
+          bodyFile: "RELEASE.md"
+          commit: "main"
+          tag: "latest"
+          allowUpdates: true
+          makeLatest: true
