@@ -4,7 +4,7 @@ Port of [tabler-icons](https://tabler.io/icons) to a Linux icon pack
 ![image](https://github.com/user-attachments/assets/e65fb15b-3fe7-40fb-a037-24820d51de36)
 
 
-This project maps the icons from [tabler-icons](https://tabler.io/icons) into a KDE/freedesktop icon theme, for a clean and modern Linux experience.
+This project maps the icons from [tabler-icons](https://tabler.io/icons) into a KDE/freedesktop/Linux icon theme, for a clean and modern Linux experience.
 
 # Contributing
 
