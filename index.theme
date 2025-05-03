@@ -25,7 +25,7 @@ FollowsColorScheme=true
 
 KDE-Extensions=.svg
 
-Directories=scalable/places,16/places,scalable/devices,16/devices,scalable/actions,16/actions,scalable/categories,16/categories,scalable/status,16/status
+Directories=scalable/places,16/places,scalable/devices,16/devices,scalable/actions,16/actions,scalable/categories,16/categories,scalable/status,16/status,scalable/preferences,16/preferences
 
 [scalable/places]
 Size=16
@@ -76,5 +76,18 @@ Type=Scalable
 [16/status]
 Size=16
 Context=Status
+Type=Fixed
+MinSize=16
+
+[scalable/preferences]
+Size=16
+Context=Applications
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[16/preferences]
+Size=16
+Context=Applications
 Type=Fixed
 MinSize=16
