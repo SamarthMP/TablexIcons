@@ -60,6 +60,7 @@ def ApplyVariant(variant, icon):
 def Main():
     GenerateVariant("light")
     GenerateVariant("dark")
+    GenerateVariant("blue")
 
 if (__name__ == "__main__"):
     Main()
