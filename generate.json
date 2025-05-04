@@ -27,6 +27,7 @@
     "actions/bookmark-new": "bookmark-plus",
     "actions/bookmark-edit": "bookmark-edit",
     "actions/bookmark-remove": "bookmark-minus",
+    "actions/system-run": "player-play",
     "actions/system-log-out": "logout",
     "actions/system-log-out-rtl": "logout-2",
     "actions/system-reboot": "refresh",
@@ -44,8 +45,17 @@
     "actions/help-about": "info-circle",
     "actions/pin": "pin",
     "actions/search": "search",
+    "actions/edit-copy": "copy",
+    "actions/edit-paste": "clipboard-list",
+    "actions/special_paste": "clipboard-list",
+    "actions/edit-find": "search",
+    "actions/edit-find-replace": "zoom-code",
+    "actions/window-new": "square-plus-2",
     "actions/window-pin": "pin",
     "actions/window-unpin": "pinned-off",
+    "actions/tab-new": "new-section",
+    "actions/view-split-left-right": "arrow-autofit-height",
+    "actions/view-split-top-bottom": "arrow-autofit-height",
     "places/emblem-documents": "files",
     "places/folder-documents": "files",
     "places/folder-documents-multiple": "files",
@@ -190,5 +200,6 @@
     "status/battery-full-charging": "battery-charging",
     "status/camera-off": "camera-off",
     "status/camera-on": "camera",
-    "status/camera-ready": "camera"
+    "status/camera-ready": "camera",
+    "apps/utilities-terminal": "terminal-2"
 }
