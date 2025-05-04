@@ -58,9 +58,8 @@ def ApplyVariant(variant, icon):
     return appliedIcon
 
 def Main():
-    GenerateVariant("light")
-    GenerateVariant("dark")
-    GenerateVariant("blue")
+    for variant in os.listdir("./variants"):
+        GenerateVariant(variant.split(".")[0])
 
 if (__name__ == "__main__"):
     Main()
