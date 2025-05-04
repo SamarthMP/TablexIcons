@@ -54,7 +54,7 @@
     "actions/window-pin": "pin",
     "actions/window-unpin": "pinned-off",
     "actions/tab-new": "new-section",
-    "actions/view-split-left-right": "arrow-autofit-height",
+    "actions/view-split-left-right": "arrow-autofit-width",
     "actions/view-split-top-bottom": "arrow-autofit-height",
     "places/emblem-documents": "files",
     "places/folder-documents": "files",
@@ -201,5 +201,8 @@
     "status/camera-off": "camera-off",
     "status/camera-on": "camera",
     "status/camera-ready": "camera",
-    "apps/utilities-terminal": "terminal-2"
+    "apps/utilities-terminal": "terminal-2",
+    "apps/system-file-manager": "folder",
+    "apps/systemsettings": "settings",
+    "apps/preferences-system": "settings"
 }
