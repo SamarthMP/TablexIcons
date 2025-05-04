@@ -79,6 +79,19 @@ Context=Status
 Type=Fixed
 MinSize=16
 
+[scalable/actions]
+Size=16
+Context=Actions
+MinSize=16
+MaxSize=512
+Type=Scalable
+
+[16/actions]
+Size=16
+Context=Actions
+Type=Fixed
+MinSize=16
+
 [scalable/preferences]
 Size=16
 Context=Applications
