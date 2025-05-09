@@ -230,9 +230,12 @@
     "status/camera-on": "camera",
     "status/camera-ready": "camera",
     "apps/utilities-terminal": "terminal-2",
+    "apps/kwrite": "notebook",
     "apps/system-file-manager": "folder",
     "apps/org.kde.dolphin": "folder",
     "apps/plasmadiscover": "package",
     "apps/systemsettings": "settings",
-    "apps/preferences-system": "settings"
+    "apps/preferences-system": "settings",
+    "apps/com.visualstudio.code": "brand-vscode",
+    "apps/com.visualstudio.code.oss": "brand-vscode"
 }
