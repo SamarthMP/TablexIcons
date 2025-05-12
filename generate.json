@@ -246,5 +246,5 @@
     "apps/chromium-browser": "brand-chrome",
     "apps/zen-browser": "circle-dot",
     "apps/com.opera.Opera": "brand-opera",
-    "apps/opera": "opera"
+    "apps/opera": "brand-opera"
 }
