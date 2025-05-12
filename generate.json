@@ -237,5 +237,14 @@
     "apps/systemsettings": "settings",
     "apps/preferences-system": "settings",
     "apps/com.visualstudio.code": "brand-vscode",
-    "apps/com.visualstudio.code.oss": "brand-vscode"
+    "apps/com.visualstudio.code.oss": "brand-vscode",
+    "apps/brave-browser": "brand-safari",
+    "apps/com.brave.Browser": "brand-safari",
+    "apps/firefox": "brand-firefox",
+    "apps/google-chrome": "brand-chrome",
+    "apps/chromium": "brand-chrome",
+    "apps/chromium-browser": "brand-chrome",
+    "apps/zen-browser": "circle-dot",
+    "apps/com.opera.Opera": "brand-opera",
+    "apps/opera": "opera"
 }
