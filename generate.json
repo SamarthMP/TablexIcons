@@ -238,6 +238,8 @@
     "apps/preferences-system": "settings",
     "apps/com.visualstudio.code": "brand-vscode",
     "apps/com.visualstudio.code.oss": "brand-vscode",
+    "apps/github-desktop": "brand-github",
+    "apps/com.bitwarden.desktop": "shield-half",
     "apps/brave-browser": "brand-safari",
     "apps/com.brave.Browser": "brand-safari",
     "apps/firefox": "brand-firefox",
@@ -246,5 +248,7 @@
     "apps/chromium-browser": "brand-chrome",
     "apps/zen-browser": "circle-dot",
     "apps/com.opera.Opera": "brand-opera",
-    "apps/opera": "brand-opera"
+    "apps/opera": "brand-opera",
+    "apps/com.discordapp.Discord": "brand-discord",
+    "apps/discord": "brand-discord"
 }
