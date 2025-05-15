@@ -250,5 +250,7 @@
     "apps/com.opera.Opera": "brand-opera",
     "apps/opera": "brand-opera",
     "apps/com.discordapp.Discord": "brand-discord",
-    "apps/discord": "brand-discord"
+    "apps/discord": "brand-discord",
+    "apps/steam": "brand-steam",
+    "apps/com.valvesoftware.Steam": "brand-steam"
 }
