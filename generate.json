@@ -233,6 +233,7 @@
     "apps/kwrite": "notebook",
     "apps/system-file-manager": "folder",
     "apps/org.kde.dolphin": "folder",
+    "apps/ark": "file-zip",
     "apps/plasmadiscover": "package",
     "apps/systemsettings": "settings",
     "apps/preferences-system": "settings",
